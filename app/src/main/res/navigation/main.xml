@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="diffutil.application.fragments.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_simpleAdapterFragment"
+            app:destination="@id/simpleAdapterFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_diffUtilAdapterFragment"
+            app:destination="@id/diffUtilAdapterFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_manuallyDiffUtilAdapterFragment"
+            app:destination="@id/manuallyDiffUtilAdapterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/simpleAdapterFragment"
+        android:name="diffutil.application.fragments.SimpleAdapterFragment"
+        android:label="Simple Adapter" />
+    <fragment
+        android:id="@+id/diffUtilAdapterFragment"
+        android:name="diffutil.application.fragments.DiffUtilAdapterFragment"
+        android:label="Diff Util Adapter" />
+    <fragment
+        android:id="@+id/manuallyDiffUtilAdapterFragment"
+        android:name="diffutil.application.fragments.ManuallyDiffUtilAdapterFragment"
+        android:label="Manual Diff Util Adapter" />
+</navigation>

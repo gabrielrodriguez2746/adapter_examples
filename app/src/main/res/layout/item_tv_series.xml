@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivSeries"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@id/tvName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@android:drawable/ic_media_rew" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivSeries"
+        tools:text="Game of Thrones" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@id/tvName"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnusedAttribute"
+        tools:src="@android:drawable/ic_media_rew" />
+
+</merge>

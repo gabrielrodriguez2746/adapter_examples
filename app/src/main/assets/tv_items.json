@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Game of Thrones",
+    "image": "https://image.tmdb.org/t/p/w300/qsD5OHqW7DSnaQ2afwz8Ptht1Xb.jpg",
+    "id": 1399
+  },
+  {
+    "name": "One-Punch Man",
+    "image": "https://image.tmdb.org/t/p/w300/s0w8JbuNNxL1YgaHeDWih12C3jG.jpg",
+    "id": 63926
+  },
+  {
+    "name": "The Flash",
+    "image": "https://image.tmdb.org/t/p/w300/jC1KqsFx8ZyqJyQa2Ohi7xgL7XC.jpg",
+    "id": 60735
+  },
+  {
+    "name": "Fairy Tail",
+    "image": "https://image.tmdb.org/t/p/w300/m2lugAG39sO0yCcuxEAu4fY5u1o.jpg",
+    "id": 46261
+  },
+  {
+    "name": "Arrow",
+    "image": "https://image.tmdb.org/t/p/w300/dKxkwAJfGuznW8Hu0mhaDJtna0n.jpg",
+    "id": 1412
+  },
+  {
+    "name": "Naruto Shippūden",
+    "image": "https://image.tmdb.org/t/p/w300/c14vjmndzL9tBdooGsMznMFrFLo.jpg",
+    "id": 31910
+  },
+  {
+    "name": "Dragon Ball",
+    "image": "https://image.tmdb.org/t/p/w300/iflq7ZJfso6WC7gk9l1tD3unWK.jpg",
+    "id": 12609
+  },
+  {
+    "name": "Riverdale",
+    "image": "https://image.tmdb.org/t/p/w300/2IUpoKSP64r6rp2vBo0Fdk8a1UU.jpg",
+    "id": 69050
+  },
+  {
+    "name": "Grey's Anatomy",
+    "image": "https://image.tmdb.org/t/p/w300/y6JABtgWMVYPx84Rvy7tROU5aNH.jpg",
+    "id": 1416
+  }
+]
